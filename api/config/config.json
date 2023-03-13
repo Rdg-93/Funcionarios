@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "admin",
+    "password": "admincadastro",
+    "database": "database_development",
+    "host": "cadastro.cjplvf6h6nev.us-east-1.rds.amazonaws.com",
+    "port": 3306,
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "admin",
+    "password": "admincadastro",
+    "database": "database_test",
+    "host": "cadastro.cjplvf6h6nev.us-east-1.rds.amazonaws.com",
+    "port": 3306,
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "admin",
+    "password": "admincadastro",
+    "database": "database_production",
+    "host": "cadastro.cjplvf6h6nev.us-east-1.rds.amazonaws.com",
+    "port": 3306,
+    "dialect": "mysql"
+  }
+}
