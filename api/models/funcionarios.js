@@ -15,7 +15,15 @@ module.exports = (sequelize, DataTypes) => {
   }
   Funcionarios.init({
     nome: DataTypes.STRING,
-    email: DataTypes.STRING,
+    email: {
+      type: DataTypes.STRING, 
+      validate:{
+        isEmail: {
+        args: true,
+        msg: 'Email invalido'
+        }
+      }
+    },
     cargo: DataTypes.STRING
   }, {
     sequelize,
